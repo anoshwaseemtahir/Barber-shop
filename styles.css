@@ -1,0 +1,32 @@
+.header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.form input, .form button {
+    padding: 10px;
+    margin: 5px;
+    width: 300px;
+}
+
+.appointments-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.appointment-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.appointment-item:last-child {
+    border-bottom: none;
+}
